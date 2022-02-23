@@ -13,12 +13,12 @@ namespace Profile.MVC.UI.Controllers
             return View();
         }
 
-        public ActionResult About()
-        {
-            ViewBag.Message = "Your application description page.";
+        //public ActionResult About()
+        //{
+        //    ViewBag.Message = "Your application description page.";
 
-            return View();
-        }
+        //    return View();
+        //}
 
         public ActionResult Contact()
         {
@@ -26,34 +26,34 @@ namespace Profile.MVC.UI.Controllers
 
             return View();
         }
+        //Commented out until I decide if a multi page app would be more appealing
+        //public ActionResult GitHub()
+        //{
+        //    ViewBag.Message = "GitHub";
+        //    return View();
+        //}
+        //public ActionResult CSharp()
+        //{
+        //    ViewBag.Message = "Text Adventure";
+        //    return View();
+        //}
 
-        public ActionResult GitHub()
-        {
-            ViewBag.Message = "GitHub";
-            return View();
-        }
-        public ActionResult CSharp()
-        {
-            ViewBag.Message = "Text Adventure";
-            return View();
-        }
+        //public ActionResult StoreFront()
+        //{
+        //    ViewBag.Message = "Store Front";
+        //    return View();
+        //}
+        //public ActionResult StaticHTML()
+        //{
+        //    ViewBag.Message = "HTML/CSS Only site";
+        //    return View();
+        //}
 
-        public ActionResult StoreFront()
-        {
-            ViewBag.Message = "Store Front";
-            return View();
-        }
-        public ActionResult StaticHTML()
-        {
-            ViewBag.Message = "HTML/CSS Only site";
-            return View();
-        }
-
-        public ActionResult Portfolio()
-        {
-            ViewBag.Message = "Project Portfolio";
-            return View();
-        }
+        //public ActionResult Portfolio()
+        //{
+        //    ViewBag.Message = "Project Portfolio";
+        //    return View();
+        //}
 
 
     }
