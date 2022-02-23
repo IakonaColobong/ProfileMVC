@@ -26,5 +26,35 @@ namespace Profile.MVC.UI.Controllers
 
             return View();
         }
+
+        public ActionResult GitHub()
+        {
+            ViewBag.Message = "GitHub";
+            return View();
+        }
+        public ActionResult CSharp()
+        {
+            ViewBag.Message = "Text Adventure";
+            return View();
+        }
+
+        public ActionResult StoreFront()
+        {
+            ViewBag.Message = "Store Front";
+            return View();
+        }
+        public ActionResult StaticHTML()
+        {
+            ViewBag.Message = "HTML/CSS Only site";
+            return View();
+        }
+
+        public ActionResult Portfolio()
+        {
+            ViewBag.Message = "Project Portfolio";
+            return View();
+        }
+
+
     }
 }

@@ -133,6 +133,8 @@
     <Content Include="Content\css\style.css" />
     <Content Include="Content\forms\contact.php" />
     <Content Include="Content\forms\Readme.txt" />
+    <Content Include="Content\img\android-chrome-192x192.png" />
+    <Content Include="Content\img\android-chrome-512x512.png" />
     <Content Include="Content\img\apple-touch-icon.png" />
     <Content Include="Content\img\BookStoreFront.jpg" />
     <Content Include="Content\img\BookStoreSchema.png" />
@@ -147,8 +149,12 @@
     <Content Include="Content\img\classmates\ScottCashion.jpg" />
     <Content Include="Content\img\classmates\TempProfilePhotoPlaceHolder.jpg" />
     <Content Include="Content\img\database2.jpg" />
+    <Content Include="Content\img\favicon-16x16.png" />
+    <Content Include="Content\img\favicon-32x32.png" />
     <Content Include="Content\img\favicon.png" />
     <Content Include="Content\img\hero-bg.jpg" />
+    <Content Include="Content\img\html5.png" />
+    <Content Include="Content\img\NET.png" />
     <Content Include="Content\img\portfolio\CAdventure.jpg" />
     <Content Include="Content\img\portfolio\portfolio-1.jpg" />
     <Content Include="Content\img\portfolio\portfolio-2.jpg" />
@@ -398,6 +404,8 @@
     <Content Include="_Archive\obj\Debug\PersonalWebpage.csprojAssemblyReference.cache" />
     <Content Include="_Archive\obj\Release\PersonalWebpage.csproj.CoreCompileInputs.cache" />
     <Content Include="Views\Shared\_OriginalLayout.cshtml" />
+    <Content Include="Views\Home\Portfolio.cshtml" />
+    <Content Include="Views\Home\CSharp.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
