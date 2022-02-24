@@ -1,50 +1,54 @@
 ﻿@model Profile.MVC.UI.Models.ContactViewModel
 
 @{
-    ViewBag.Title = "EmailConfirmation";
+    ViewBag.Title = "Email Confirmation";
 }
 
-<h2>EmailConfirmation</h2>
 
-<div>
-    <h4>ContactViewModel</h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Name)
-        </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Name)
-        </dd>
+<div class="container col d-flex justify-content-center">
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Email)
-        </dt>
+    <div class="card text-center"  style="width: 20rem;">
+        <div class="card-header">
+    <h4>@ViewBag.Title</h4>
+            </div>
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Name)
+            </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Email)
-        </dd>
+            <dd>
+                @Html.DisplayFor(model => model.Name)
+            </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Subject)
-        </dt>
+            <dt>
+                @Html.DisplayNameFor(model => model.Email)
+            </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Subject)
-        </dd>
+            <dd>
+                @Html.DisplayFor(model => model.Email)
+            </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Message)
-        </dt>
+            <dt>
+                @Html.DisplayNameFor(model => model.Subject)
+            </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Message)
-        </dd>
+            <dd>
+                @Html.DisplayFor(model => model.Subject)
+            </dd>
 
-    </dl>
+            <dt>
+                @Html.DisplayNameFor(model => model.Message)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Message)
+            </dd>
+
+        </dl>
+            <div class="card-footer">
+                @*@Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |*@
+                @Html.ActionLink("Back to Home", "Index")
+            </div>
+    </div>
 </div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>
