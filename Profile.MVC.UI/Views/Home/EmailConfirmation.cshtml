@@ -1,17 +1,14 @@
 ﻿@model Profile.MVC.UI.Models.ContactViewModel
-
 @{
     ViewBag.Title = "Email Confirmation";
 }
 
+l<div class="container col d-flex justify-content-center">
 
-
-<div class="container col d-flex justify-content-center">
-
-    <div class="card text-center"  style="width: 20rem;">
+    <div class="card text-center" style="width: 20rem;">
         <div class="card-header">
-    <h4>@ViewBag.Title</h4>
-            </div>
+            <h4>@ViewBag.Title</h4>
+        </div>
         <dl class="dl-horizontal">
             <dt>
                 @Html.DisplayNameFor(model => model.Name)
@@ -46,9 +43,9 @@
             </dd>
 
         </dl>
-            <div class="card-footer">
-                @*@Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |*@
-                @Html.ActionLink("Back to Home", "Index")
-            </div>
+        <div class="card-footer">
+            @*@Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |*@
+            @Html.ActionLink("Back to Home", "Index")
+        </div>
     </div>
 </div>
